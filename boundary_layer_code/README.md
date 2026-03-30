@@ -1,10 +1,3 @@
-<!-- Overall comments
-
-Maybe add tdqm to stuff that takes long?
-Save loss curves plots somewhere
-
- -->
-
 # Instructions
 
 Build the docker image:
@@ -27,7 +20,9 @@ Saves data (states and boundary conditions) in numpy format.
 Visualize data:
 
 1st column: vertical velocity component;
+
 2nd column: horizontal velocity component;
+
 3rd column: boundary conditions (first half is U data and second half is V data).
 
 # s03_conv_train.py
@@ -42,10 +37,6 @@ Save NNSM simulation for visualization.
 
 Visualize NNSM results through direct inference from data at previous time step and through autoregressive updates from initial conditions.
 
-
-É tudo teste? Se não for, deixar claro qual parte da animação tá nos dados de treinamento e qual não está.
-
-Erro IndexError: index 1000 is out of bounds for axis 0 with size 1000
 
 
 # s06_train_out_model.py

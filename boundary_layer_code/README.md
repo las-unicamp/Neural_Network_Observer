@@ -8,10 +8,12 @@ Save loss curves plots somewhere
 # Instructions
 
 Build the docker image:
-    docker build -t bl_nno:latest .
+
+docker build -t bl_nno:latest .
 
 Run the container 
-    docker run --rm -it --network host --env DISPLAY=$DISPLAY -v $PWD:/workspace --gpus all --ipc=host --name nno --shm-size=4g bl_nno:latest
+
+docker run --rm -it --network host --env DISPLAY=$DISPLAY -v $PWD:/workspace --gpus all --ipc=host --name nno --shm-size=4g bl_nno:latest
 
 Within the container, at /workspace directory, run the scripts in order: s01_..., s02_..., ...
 

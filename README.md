@@ -8,4 +8,4 @@ The code available in /boundary_layer_code can be used to train the neural netwo
 
 # Cylinder flow control
 
-The code available in /cylinder flow can be employed to train the NNSM, the neutal network controller (NNC), the outputmodel and the NNO for cylinder stabilization via dynamic output feedback.
+The code available in /cylinder_flow_code can be employed to train the NNSM, the neutal network controller (NNC), the outputmodel and the NNO for cylinder stabilization via dynamic output feedback.

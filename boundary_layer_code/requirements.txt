@@ -2,5 +2,5 @@ imageio==2.35.1
 matplotlib==3.4.3
 numpy==1.19.2
 tensorflow==2.4.0
-Pillow
+Pillow==10.4.0
 gdown==5.2.1
